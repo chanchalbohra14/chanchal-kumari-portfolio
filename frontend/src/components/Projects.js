@@ -6,69 +6,69 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'AI-Powered E-commerce Store',
-      description: 'A modern Shopify store integrated with AI tools for product recommendations and customer support. Built with React and AI agents for enhanced user experience.',
+      title: 'B-Click Photography Website',
+      description: 'Developed a fully responsive photography portfolio website using HTML and CSS, featuring a visually appealing gallery, categorized image sections, social media integration, and an elegant design.',
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
-      tags: ['React', 'Shopify', 'AI Tools', 'Node.js'],
-      category: 'ecommerce',
-      features: ['AI Product Recommendations', 'Automated Customer Support', 'Dynamic Pricing', 'Analytics Dashboard'],
-      liveUrl: '#',
-      githubUrl: '#'
+      tags: ['HTML5', 'CSS3', 'Responsive Design', 'Gallery'],
+      category: 'frontend',
+      features: ['Responsive Gallery', 'Category Sections', 'Social Media Integration', 'Elegant Design'],
+      liveUrl: 'https://chanchalbohra14.github.io/B-Click-Photography-/',
+      githubUrl: 'https://github.com/chanchalbohra14/B-Click-Photography-'
     },
     {
       id: 2,
-      title: 'MERN Stack Task Manager',
-      description: 'A comprehensive task management application built with MongoDB, Express.js, React, and Node.js. Features real-time updates and collaborative workflows.',
+      title: 'Social Media Dashboard',
+      description: 'A modern social media dashboard built with React, featuring analytics, user engagement metrics, and responsive design for managing social media presence effectively.',
       image: 'https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg',
-      tags: ['React', 'Node.js', 'MongoDB', 'Express'],
-      category: 'fullstack',
-      features: ['Real-time Updates', 'Team Collaboration', 'Task Automation', 'Progress Tracking'],
-      liveUrl: '#',
-      githubUrl: '#'
+      tags: ['React', 'CSS3', 'Dashboard', 'Analytics'],
+      category: 'react',
+      features: ['Analytics Dashboard', 'User Metrics', 'Responsive Design', 'Data Visualization'],
+      liveUrl: 'https://chanchalbohra14.github.io/social-media-dashboard-using-react/',
+      githubUrl: 'https://github.com/chanchalbohra14/social-media-dashboard-using-react'
     },
     {
       id: 3,
-      title: 'React AI Dashboard',
-      description: 'An interactive dashboard leveraging AI APIs for data visualization and insights. Built with React and integrated with multiple AI services for enhanced analytics.',
+      title: 'CRUD Operations Frontend',
+      description: 'A comprehensive frontend application for CRUD operations built with JavaScript. Features dynamic data management, user-friendly interface, and seamless API integration.',
       image: 'https://images.unsplash.com/photo-1576272531110-2a342fe22342',
-      tags: ['React', 'AI APIs', 'D3.js', 'Tailwind'],
-      category: 'ai',
-      features: ['AI-Powered Analytics', 'Interactive Charts', 'Real-time Data', 'Custom Widgets'],
-      liveUrl: '#',
-      githubUrl: '#'
+      tags: ['JavaScript', 'CRUD', 'API Integration', 'Frontend'],
+      category: 'javascript',
+      features: ['Create Operations', 'Read/Display Data', 'Update Records', 'Delete Functions'],
+      liveUrl: 'https://chanchalbohra14.github.io/crud-op-frontend/',
+      githubUrl: 'https://github.com/chanchalbohra14/crud-op-frontend'
     },
     {
       id: 4,
-      title: 'AI Agent Development Platform',
-      description: 'A platform for building and deploying AI agents using modern web technologies. Integrates with various AI tools and provides a user-friendly interface.',
+      title: 'Alfido Tech Internship Projects',
+      description: 'Collection of projects developed during Alfido Tech internship, showcasing JavaScript skills and practical application of web development concepts.',
       image: 'https://images.unsplash.com/photo-1613203713329-b2e39e14c266',
-      tags: ['React', 'AI Agents', 'n8n', 'API Integration'],
-      category: 'ai',
-      features: ['Drag & Drop Interface', 'Multi-AI Integration', 'Custom Workflows', 'Deployment Tools'],
+      tags: ['JavaScript', 'Internship', 'Web Development', 'Projects'],
+      category: 'javascript',
+      features: ['Multiple Projects', 'JavaScript Skills', 'Practical Applications', 'Industry Experience'],
       liveUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/chanchalbohra14/Alfido-Tech-Internship'
     },
     {
       id: 5,
-      title: 'Lovable.dev Portfolio Generator',
-      description: 'A React application that leverages Lovable.dev AI to automatically generate portfolio websites based on user input and preferences.',
+      title: 'Personal Portfolio Website',
+      description: 'A personal portfolio website built with CSS and modern web technologies, showcasing development skills and project highlights in an elegant format.',
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
-      tags: ['React', 'Lovable.dev', 'AI Generation', 'Tailwind'],
-      category: 'ai',
-      features: ['AI-Generated Layouts', 'Custom Themes', 'Responsive Design', 'One-Click Deploy'],
-      liveUrl: '#',
-      githubUrl: '#'
+      tags: ['CSS3', 'Portfolio', 'Web Design', 'Responsive'],
+      category: 'frontend',
+      features: ['Modern Design', 'Project Showcase', 'Responsive Layout', 'Clean Code'],
+      liveUrl: 'https://chanchalbohra14.github.io/portfolio/',
+      githubUrl: 'https://github.com/chanchalbohra14/portfolio'
     },
     {
       id: 6,
-      title: 'Shopify Custom App',
-      description: 'A custom Shopify application for inventory management and sales analytics. Built with React and integrated with Shopify APIs for seamless operation.',
+      title: 'GitHub Profile',
+      description: 'Professional GitHub profile repository with comprehensive README showcasing development journey, skills, and contributions to the open source community.',
       image: 'https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg',
-      tags: ['Shopify', 'React', 'APIs', 'Analytics'],
-      category: 'ecommerce',
-      features: ['Inventory Tracking', 'Sales Analytics', 'Order Management', 'Customer Insights'],
-      liveUrl: '#',
-      githubUrl: '#'
+      tags: ['GitHub', 'Profile', 'Documentation', 'Open Source'],
+      category: 'other',
+      features: ['Professional Profile', 'Project Links', 'Skill Showcase', 'Contact Information'],
+      liveUrl: 'https://github.com/chanchalbohra14',
+      githubUrl: 'https://github.com/chanchalbohra14/chanchalbohra14'
     }
   ];
 
