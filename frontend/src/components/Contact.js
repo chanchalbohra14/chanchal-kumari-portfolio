@@ -62,7 +62,7 @@ const Contact = () => {
       ),
       title: 'GitHub',
       value: 'View Profile',
-      link: 'https://github.com/chanchal-kumari'
+      link: 'https://github.com/chanchalbohra14'
     }
   ];
 
