@@ -69,13 +69,32 @@ const About = () => {
     }
   ];
 
-  const education = {
-    degree: 'Bachelor of Computer Applications',
-    institution: 'Shree Medha Degree College',
-    period: '2021 - 2024',
-    grade: 'CGPA: 9.33',
-    location: 'Ballari, Karnataka, India'
-  };
+  const education = [
+    {
+      degree: 'Bachelor of Computer Applications',
+      institution: 'Shree Medha Degree College',
+      period: '2021 - 2024',
+      grade: 'CGPA: 9.33',
+      location: 'Ballari, Karnataka, India',
+      level: 'undergraduate'
+    },
+    {
+      degree: 'Pre-University Course (PU)',
+      institution: 'Basarajeshwari Public School and College',
+      period: '2019 - 2021',
+      grade: '',
+      location: 'Karnataka, India',
+      level: 'intermediate'
+    },
+    {
+      degree: 'Secondary School Leaving Certificate (SSLC)',
+      institution: 'St. Joseph Co-Education High School',
+      period: '2018 - 2019',
+      grade: '',
+      location: 'Karnataka, India',
+      level: 'secondary'
+    }
+  ];
 
   const certifications = [
     {
