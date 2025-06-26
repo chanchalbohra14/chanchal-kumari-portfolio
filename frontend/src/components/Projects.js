@@ -96,10 +96,11 @@ const Projects = () => {
 
   const categories = [
     { id: 'all', name: 'All Projects' },
-    { id: 'frontend', name: 'Frontend' },
+    { id: 'ai', name: 'AI Projects' },
     { id: 'react', name: 'React' },
-    { id: 'javascript', name: 'JavaScript' },
-    { id: 'other', name: 'Other' }
+    { id: 'frontend', name: 'Frontend' },
+    { id: 'ecommerce', name: 'E-commerce' },
+    { id: 'design', name: 'Design' }
   ];
 
   const filteredProjects = filter === 'all' 
