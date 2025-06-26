@@ -221,12 +221,20 @@ const Contact = () => {
               <h2 className="text-2xl font-bold text-white mb-4">Availability</h2>
               <div className="flex items-center mb-4">
                 <div className="w-3 h-3 bg-green-400 rounded-full mr-3 animate-pulse"></div>
-                <span className="text-green-400 font-semibold">Available for new projects</span>
+                <span className="text-green-400 font-semibold">Open to work</span>
               </div>
-              <p className="text-gray-300 text-sm leading-relaxed">
-                I'm currently accepting new projects and collaborations. 
-                Let's discuss how we can work together to bring your vision to life.
+              <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                Currently seeking <span className="text-indigo-400 font-semibold">React Developer</span>, 
+                <span className="text-indigo-400 font-semibold"> Frontend Developer</span>, and 
+                <span className="text-indigo-400 font-semibold"> Full Stack Developer</span> roles.
               </p>
+              <div className="bg-indigo-500/20 border border-indigo-500/30 rounded-lg p-4">
+                <p className="text-indigo-300 text-sm font-semibold mb-2">Recent Graduate</p>
+                <p className="text-gray-300 text-xs">
+                  Computer Applications (CGPA: 9.33) with internship experience at 
+                  Accenture, BCG X, AWS, and Alfido Tech
+                </p>
+              </div>
             </div>
           </div>
         </div>
