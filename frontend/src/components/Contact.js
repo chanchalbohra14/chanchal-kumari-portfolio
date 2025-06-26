@@ -68,11 +68,13 @@ const Contact = () => {
 
   const services = [
     'React.js Development',
-    'MERN Stack Applications',
-    'Shopify Store Development',
-    'AI Integration & Automation',
-    'Custom Web Applications',
-    'E-commerce Solutions'
+    'Frontend Development',
+    'AI Agent Development',
+    'Social Media Management',
+    'Content Creation',
+    'UI/UX Design with AI Tools',
+    'E-commerce Development (Shopify)',
+    'Responsive Web Design'
   ];
 
   return (
