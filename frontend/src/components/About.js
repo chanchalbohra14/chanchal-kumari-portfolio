@@ -372,7 +372,7 @@ const About = () => {
               <div>
                 <h4 className="text-lg font-semibold text-indigo-300 mb-4">Content & Design</h4>
                 <div className="flex flex-wrap gap-3">
-                  {['Canva', 'Content Creation', 'UI/UX Design'].map((skill) => (
+                  {['Canva', 'Content Creation', 'Video Editing', 'VN', 'Capcut', 'UI/UX Design', 'Engagement Strategy'].map((skill) => (
                     <span key={skill} className="skill-tag">{skill}</span>
                   ))}
                 </div>
