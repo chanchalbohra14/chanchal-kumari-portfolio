@@ -228,14 +228,47 @@ const About = () => {
 
             {/* Certifications */}
             <div className="glass rounded-2xl p-8">
-              <h3 className="text-2xl font-bold text-white mb-6">Certifications</h3>
-              <div className="space-y-3">
+              <h3 className="text-2xl font-bold text-white mb-6">Key Certifications</h3>
+              
+              {/* Major Certifications */}
+              <div className="space-y-4 mb-6">
                 {certifications.map((cert, index) => (
-                  <div key={index} className="flex items-center p-3 bg-white/5 rounded-lg">
-                    <div className="w-2 h-2 bg-green-400 rounded-full mr-4"></div>
-                    <span className="text-gray-300">{cert}</span>
+                  <div key={index} className="border-l-4 border-green-500 pl-4 bg-white/5 rounded-lg p-3">
+                    <div className="flex justify-between items-start mb-2">
+                      <h4 className="text-sm font-semibold text-white">{cert.title}</h4>
+                      <span className="text-xs text-green-400 font-medium">{cert.date}</span>
+                    </div>
+                    <p className="text-green-400 text-xs font-medium">{cert.issuer}</p>
+                    <span className="text-xs bg-green-500/20 text-green-300 px-2 py-1 rounded-full mt-2 inline-block">
+                      {cert.category}
+                    </span>
                   </div>
                 ))}
+              </div>
+
+              {/* Additional Certifications */}
+              <div className="border-t border-gray-600 pt-6">
+                <h4 className="text-lg font-semibold text-indigo-300 mb-4">Additional Certifications</h4>
+                <div className="grid grid-cols-1 gap-2">
+                  {additionalCerts.map((cert, index) => (
+                    <div key={index} className="flex items-center p-2 bg-white/5 rounded-lg">
+                      <div className="w-2 h-2 bg-indigo-400 rounded-full mr-3"></div>
+                      <span className="text-gray-300 text-sm">{cert}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Certification Stats */}
+              <div className="mt-6 grid grid-cols-2 gap-4">
+                <div className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-lg p-4 text-center">
+                  <div className="text-2xl font-bold text-green-400">28+</div>
+                  <div className="text-sm text-gray-300">Total Certifications</div>
+                </div>
+                <div className="bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-lg p-4 text-center">
+                  <div className="text-2xl font-bold text-blue-400">2025</div>
+                  <div className="text-sm text-gray-300">Most Recent Year</div>
+                </div>
               </div>
             </div>
           </div>
