@@ -71,9 +71,101 @@ const About = () => {
   };
 
   const certifications = [
-    'AI For Beginners (HP)',
-    'AWS APAC Solutions Architecture Job Simulation',
-    '28+ Professional Certifications'
+    {
+      title: 'Microsoft Azure AI Engineer Associate',
+      issuer: 'ICT Academy',
+      date: 'Jun 2025',
+      category: 'Cloud & AI'
+    },
+    {
+      title: 'AWS APAC Solutions Architecture Job Simulation',
+      issuer: 'Forage',
+      date: 'Jun 2025',
+      category: 'Cloud & AI'
+    },
+    {
+      title: 'BCG GenAI Job Simulation',
+      issuer: 'Forage',
+      date: 'Jun 2025',
+      category: 'AI & ML'
+    },
+    {
+      title: 'Accenture Nordics Software Engineering Job Simulation',
+      issuer: 'Forage',
+      date: 'Jun 2025',
+      category: 'Software Engineering'
+    },
+    {
+      title: 'ChatGPT Prompt Engineering for Developers',
+      issuer: 'OpenAI',
+      date: 'Jun 2025',
+      category: 'AI & ML'
+    },
+    {
+      title: 'Multi AI Agent Systems with crewAI',
+      issuer: 'CrewAI',
+      date: 'Jun 2025',
+      category: 'AI & ML'
+    },
+    {
+      title: 'Build Real World AI Applications with Gemini and Imagen',
+      issuer: 'Google Cloud Skills Boost',
+      date: 'Jun 2025',
+      category: 'AI & ML'
+    },
+    {
+      title: 'AI For Beginners',
+      issuer: 'HP',
+      date: 'Jun 2025',
+      category: 'AI & ML'
+    },
+    {
+      title: 'Agile Project Management',
+      issuer: 'HP',
+      date: 'Jun 2025',
+      category: 'Project Management'
+    },
+    {
+      title: 'Data Science & Analytics',
+      issuer: 'HP',
+      date: 'Jun 2025',
+      category: 'Data Science'
+    },
+    {
+      title: 'Introduction to Cybersecurity Awareness',
+      issuer: 'HP',
+      date: 'Jun 2025',
+      category: 'Security'
+    },
+    {
+      title: 'Prompt Engineering',
+      issuer: 'AI IXX',
+      date: 'Jun 2025',
+      category: 'AI & ML'
+    },
+    {
+      title: 'Lloyds Banking Group UX Design Introduction',
+      issuer: 'Forage',
+      date: 'Jun 2025',
+      category: 'Design'
+    }
+  ];
+
+  const additionalCerts = [
+    'Gen AI Agents: Transform Your Organization (Google Cloud)',
+    'Gen AI Apps: Transform Your Work (Google Cloud)', 
+    'Gen AI: Beyond the Chatbot (Google Cloud)',
+    'Gen AI: Navigate the Landscape (Google Cloud)',
+    'Gen AI: Unlock Foundational Concepts (Google Cloud)',
+    'Google Cloud Fundamentals: Core Infrastructure',
+    'Introduction to Gen AI (Google Cloud)',
+    'Prompt Design in Vertex AI (Google Cloud)',
+    'Introduction To MERN Stack (Simplilearn)',
+    'Digital Marketing Fundamentals (IIDE)',
+    'Python Fundamentals For Beginners (Great Learning)',
+    'Deplomat Coding Event (De Paul College)',
+    'Enthrone Event CodeVita (Shree Medha College)',
+    '+ 15 more specialized certifications'
   ];
 
   return (
