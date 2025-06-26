@@ -351,11 +351,11 @@ const About = () => {
                 </div>
               </div>
 
-              {/* Cloud & Platform */}
+              {/* Cloud & AI Platforms */}
               <div className="mb-8">
-                <h4 className="text-lg font-semibold text-indigo-300 mb-4">Cloud & Platforms</h4>
+                <h4 className="text-lg font-semibold text-indigo-300 mb-4">Cloud & AI Platforms</h4>
                 <div className="flex flex-wrap gap-3">
-                  {['AWS', 'Shopify'].map((skill) => (
+                  {['AWS', 'Google Cloud', 'Microsoft Azure', 'OpenAI', 'CrewAI', 'Gemini', 'Vertex AI'].map((skill) => (
                     <span key={skill} className="skill-tag">{skill}</span>
                   ))}
                 </div>
