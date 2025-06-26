@@ -244,11 +244,44 @@ const About = () => {
             {/* Education Section */}
             <div className="glass rounded-2xl p-8 mb-8">
               <h3 className="text-2xl font-bold text-white mb-6">Education</h3>
-              <div className="border-l-4 border-indigo-500 pl-6">
-                <h4 className="text-lg font-semibold text-white">{education.degree}</h4>
-                <p className="text-indigo-400 font-medium">{education.institution}</p>
-                <p className="text-gray-400 text-sm">{education.period} | {education.location}</p>
-                <p className="text-green-400 font-semibold text-sm mt-2">{education.grade}</p>
+              <div className="space-y-6">
+                {education.map((edu, index) => (
+                  <div key={index} className={`border-l-4 pl-6 ${
+                    edu.level === 'undergraduate' ? 'border-green-500' : 
+                    edu.level === 'intermediate' ? 'border-blue-500' : 'border-yellow-500'
+                  }`}>
+                    <div className="flex justify-between items-start mb-2">
+                      <div>
+                        <h4 className="text-lg font-semibold text-white">{edu.degree}</h4>
+                        <p className={`font-medium ${
+                          edu.level === 'undergraduate' ? 'text-green-400' : 
+                          edu.level === 'intermediate' ? 'text-blue-400' : 'text-yellow-400'
+                        }`}>{edu.institution}</p>
+                      </div>
+                      <span className="text-gray-400 text-sm font-medium">{edu.period}</span>
+                    </div>
+                    <p className="text-gray-400 text-sm mb-2">{edu.location}</p>
+                    {edu.grade && (
+                      <div className="inline-block">
+                        <span className="bg-green-500/20 text-green-400 font-semibold text-sm px-3 py-1 rounded-full border border-green-500/30">
+                          {edu.grade}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+              
+              {/* Academic Achievement Highlight */}
+              <div className="mt-6 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-lg p-4 border border-green-500/30">
+                <div className="flex items-center mb-2">
+                  <div className="w-3 h-3 bg-green-400 rounded-full mr-3"></div>
+                  <h4 className="text-green-400 font-semibold">Academic Excellence</h4>
+                </div>
+                <p className="text-gray-300 text-sm">
+                  Graduated with exceptional academic performance (CGPA: 9.33/10.0) in Computer Applications, 
+                  demonstrating strong foundation in programming, software development, and technology.
+                </p>
               </div>
             </div>
 
