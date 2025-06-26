@@ -370,6 +370,26 @@ const About = () => {
                   ))}
                 </div>
               </div>
+
+              {/* Additional Skills */}
+              <div className="mb-8">
+                <h4 className="text-lg font-semibold text-indigo-300 mb-4">Additional Skills</h4>
+                <div className="flex flex-wrap gap-3">
+                  {['Python', 'Data Science', 'Digital Marketing', 'Cybersecurity', 'Agile PM', 'UX Design'].map((skill) => (
+                    <span key={skill} className="skill-tag">{skill}</span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Backend & Databases */}
+              <div>
+                <h4 className="text-lg font-semibold text-indigo-300 mb-4">Backend & Databases</h4>
+                <div className="flex flex-wrap gap-3">
+                  {['Node.js', 'MongoDB', 'Express.js', 'Shopify'].map((skill) => (
+                    <span key={skill} className="skill-tag">{skill}</span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>
