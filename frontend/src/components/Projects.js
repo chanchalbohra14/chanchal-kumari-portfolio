@@ -6,9 +6,64 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'B-Click Photography Website',
-      description: 'Developed a fully responsive photography portfolio website using HTML and CSS, featuring a visually appealing gallery, categorized image sections, social media integration, and an elegant design.',
+      title: 'Vibe Coding++ | AI-Powered Code Playground',
+      description: 'Built using React.js and designed with V0 by Vercel. Features real-time HTML, CSS, and TypeScript editor with AI-powered code generation using OpenAI GPT API. Includes lo-fi music player and dark/light mode.',
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
+      tags: ['React.js', 'OpenAI GPT', 'V0 by Vercel', 'Tailwind CSS'],
+      category: 'ai',
+      features: ['AI Code Generation', 'Live Code Preview', 'Lo-fi Music Player', 'Dark/Light Mode'],
+      liveUrl: 'https://lnkd.in/efe8gjp9',
+      githubUrl: 'https://github.com/chanchalbohra14/vibe-coding'
+    },
+    {
+      id: 2,
+      title: 'Real-Time AI Agent with OpenAI & SerpAPI',
+      description: 'Cloud-based AI Agent combining OpenAI reasoning with real-time search via SerpAPI, orchestrated through n8n. Features context-aware responses, live data fetching, and multi-modal capabilities.',
+      image: 'https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg',
+      tags: ['OpenAI', 'SerpAPI', 'n8n', 'AI Agents'],
+      category: 'ai',
+      features: ['Real-time Search', 'Context Memory', 'Multi-modal Processing', 'Workflow Automation'],
+      liveUrl: '#',
+      githubUrl: 'https://github.com/chanchalbohra14/ai-agent-openai-serpapi'
+    },
+    {
+      id: 3,
+      title: 'AI Email Agent with n8n',
+      description: 'Intelligent email automation agent using n8n workflow management, OpenAI for natural language processing, and Gmail integration. Features context retention and automated responses.',
+      image: 'https://images.unsplash.com/photo-1576272531110-2a342fe22342',
+      tags: ['n8n', 'OpenAI', 'Gmail API', 'Automation'],
+      category: 'ai',
+      features: ['Email Automation', 'Context Retention', 'Smart Responses', 'Workflow Management'],
+      liveUrl: '#',
+      githubUrl: 'https://github.com/chanchalbohra14/ai-email-agent'
+    },
+    {
+      id: 4,
+      title: 'UI Design with Stitch AI (Google)',
+      description: 'Premium e-commerce UI concept for organic dark chocolate brand created using Stitch AI. Complete website interface including home, about, products, contact, and checkout pages.',
+      image: 'https://images.unsplash.com/photo-1613203713329-b2e39e14c266',
+      tags: ['Stitch AI', 'UI/UX Design', 'E-commerce', 'Google AI'],
+      category: 'design',
+      features: ['AI-Generated UI', 'E-commerce Flow', 'Premium Design', 'Complete Website'],
+      liveUrl: '#',
+      githubUrl: 'https://github.com/chanchalbohra14/stitch-ai-ecommerce'
+    },
+    {
+      id: 5,
+      title: 'E-Commerce Clothing Website',
+      description: 'Shopify-based e-commerce platform for clothing rental business. Features responsive design, product management, and integrated payment solutions.',
+      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
+      tags: ['Shopify', 'E-commerce', 'Responsive Design', 'Payment Integration'],
+      category: 'ecommerce',
+      features: ['Product Management', 'Payment Gateway', 'Responsive Design', 'Inventory System'],
+      liveUrl: '#',
+      githubUrl: 'https://github.com/chanchalbohra14/ecommerce-clothing'
+    },
+    {
+      id: 6,
+      title: 'B-Click Photography Website',
+      description: 'Fully responsive photography portfolio website using HTML and CSS, featuring a visually appealing gallery, categorized image sections, and social media integration.',
+      image: 'https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg',
       tags: ['HTML5', 'CSS3', 'Responsive Design', 'Gallery'],
       category: 'frontend',
       features: ['Responsive Gallery', 'Category Sections', 'Social Media Integration', 'Elegant Design'],
@@ -16,10 +71,10 @@ const Projects = () => {
       githubUrl: 'https://github.com/chanchalbohra14/B-Click-Photography-'
     },
     {
-      id: 2,
+      id: 7,
       title: 'Social Media Dashboard',
-      description: 'A modern social media dashboard built with React, featuring analytics, user engagement metrics, and responsive design for managing social media presence effectively.',
-      image: 'https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg',
+      description: 'Modern React-based social media dashboard featuring analytics, user engagement metrics, and responsive design for managing social media presence effectively.',
+      image: 'https://images.unsplash.com/photo-1576272531110-2a342fe22342',
       tags: ['React', 'CSS3', 'Dashboard', 'Analytics'],
       category: 'react',
       features: ['Analytics Dashboard', 'User Metrics', 'Responsive Design', 'Data Visualization'],
@@ -27,48 +82,15 @@ const Projects = () => {
       githubUrl: 'https://github.com/chanchalbohra14/social-media-dashboard-using-react'
     },
     {
-      id: 3,
-      title: 'CRUD Operations Frontend',
-      description: 'A comprehensive frontend application for CRUD operations built with JavaScript. Features dynamic data management, user-friendly interface, and seamless API integration.',
-      image: 'https://images.unsplash.com/photo-1576272531110-2a342fe22342',
-      tags: ['JavaScript', 'CRUD', 'API Integration', 'Frontend'],
-      category: 'javascript',
-      features: ['Create Operations', 'Read/Display Data', 'Update Records', 'Delete Functions'],
-      liveUrl: 'https://chanchalbohra14.github.io/crud-op-frontend/',
-      githubUrl: 'https://github.com/chanchalbohra14/crud-op-frontend'
-    },
-    {
-      id: 4,
+      id: 8,
       title: 'Alfido Tech Internship Projects',
-      description: 'Collection of projects developed during Alfido Tech internship, showcasing JavaScript skills and practical application of web development concepts.',
+      description: 'Collection of React.js projects from Alfido Tech internship including API Data Fetcher, React Counter App, and React Router Navigation demonstrating practical development skills.',
       image: 'https://images.unsplash.com/photo-1613203713329-b2e39e14c266',
-      tags: ['JavaScript', 'Internship', 'Web Development', 'Projects'],
-      category: 'javascript',
-      features: ['Multiple Projects', 'JavaScript Skills', 'Practical Applications', 'Industry Experience'],
+      tags: ['React.js', 'API Integration', 'React Hooks', 'React Router'],
+      category: 'react',
+      features: ['API Data Fetching', 'State Management', 'Routing', 'Component Design'],
       liveUrl: '#',
       githubUrl: 'https://github.com/chanchalbohra14/Alfido-Tech-Internship'
-    },
-    {
-      id: 5,
-      title: 'Personal Portfolio Website',
-      description: 'A personal portfolio website built with CSS and modern web technologies, showcasing development skills and project highlights in an elegant format.',
-      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
-      tags: ['CSS3', 'Portfolio', 'Web Design', 'Responsive'],
-      category: 'frontend',
-      features: ['Modern Design', 'Project Showcase', 'Responsive Layout', 'Clean Code'],
-      liveUrl: 'https://chanchalbohra14.github.io/portfolio/',
-      githubUrl: 'https://github.com/chanchalbohra14/portfolio'
-    },
-    {
-      id: 6,
-      title: 'GitHub Profile',
-      description: 'Professional GitHub profile repository with comprehensive README showcasing development journey, skills, and contributions to the open source community.',
-      image: 'https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg',
-      tags: ['GitHub', 'Profile', 'Documentation', 'Open Source'],
-      category: 'other',
-      features: ['Professional Profile', 'Project Links', 'Skill Showcase', 'Contact Information'],
-      liveUrl: 'https://github.com/chanchalbohra14',
-      githubUrl: 'https://github.com/chanchalbohra14/chanchalbohra14'
     }
   ];
 
