@@ -14,12 +14,13 @@ const Home = () => {
             </h1>
             
             <h2 className="text-2xl lg:text-3xl text-indigo-300 mb-6 font-semibold">
-              React JS Developer + AI Enthusiast
+              React Enthusiast + AI | MERN Stack Developer
             </h2>
             
             <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl">
-              MERN Stack Developer | Shopify Expert | Leveraging AI Tools like Lovable.dev, Cursor, v0 | 
-              Building the future with React and AI Agent Development
+              Recent Computer Applications graduate passionate about React.js and front-end development. 
+              Experienced with AI tools like Lovable.dev, Cursor, v0 | Exploring AI Agent Development | 
+              Open to React Developer & Full Stack roles
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -31,11 +32,21 @@ const Home = () => {
               </Link>
             </div>
             
+            {/* Recent Achievement */}
+            <div className="mt-8 glass rounded-lg p-4 max-w-md mx-auto lg:mx-0">
+              <p className="text-green-400 font-semibold text-sm mb-2">🎉 Recent Achievement</p>
+              <p className="text-gray-300 text-sm">
+                Completed internships at <span className="text-indigo-400 font-semibold">Accenture</span>, 
+                <span className="text-indigo-400 font-semibold"> BCG X</span>, and 
+                <span className="text-indigo-400 font-semibold"> AWS</span> in June 2025
+              </p>
+            </div>
+            
             {/* Tech Stack Icons */}
             <div className="mt-12">
-              <p className="text-gray-400 mb-4 text-sm uppercase tracking-wider">Tech Stack</p>
+              <p className="text-gray-400 mb-4 text-sm uppercase tracking-wider">Core Skills</p>
               <div className="flex flex-wrap gap-3 justify-center lg:justify-start">
-                {['React', 'Node.js', 'JavaScript', 'Shopify', 'AI Tools', 'Git'].map((tech) => (
+                {['React.js', 'JavaScript', 'AI Tools', 'AWS', 'Shopify', 'n8n'].map((tech) => (
                   <span key={tech} className="skill-tag">
                     {tech}
                   </span>
