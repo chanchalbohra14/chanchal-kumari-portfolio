@@ -9,32 +9,25 @@ const About = () => {
 
   const experience = [
     {
-      title: 'Frontend Developer',
-      company: 'Freelance',
-      period: 'Nov 2024 - Present',
-      description: 'Developing responsive web applications using React.js, JavaScript, HTML5, and CSS3. Focus on creating seamless user experiences and modern UI components.',
-      skills: ['JavaScript', 'HTML5', 'React.js', 'CSS3']
-    },
-    {
       title: 'Social Media Manager',
       company: 'Instagram (Freelance)',
-      period: 'Feb 2025 - Present',
-      description: 'Managing social media presence and content strategy. Creating engaging content using Canva and implementing time management strategies.',
-      skills: ['Canva', 'Time Management', 'Content Creation']
+      period: 'Feb 2025 - Present (5 mos)',
+      description: 'Managing social media presence and content strategy for KUSHI || RENTAL WEAR (@kushi_clothing_rental). Creating engaging content and implementing growth strategies.',
+      skills: ['Canva', 'Time Management', 'Content Creation', 'Engagement Strategy', 'VN', 'Capcut', 'Video Editing']
     },
     {
       title: 'Content Creator',
       company: 'Full-time',
-      period: 'Nov 2024 - Present',
-      description: 'Creating engaging digital content and managing brand presence. Specializing in tech content and AI-powered development workflows.',
-      skills: ['Canva', 'Content Creation', 'Brand Management']
+      period: 'Nov 2024 - Present (8 mos)',
+      description: 'Creating engaging digital content and managing personal brand (@dumps.bycb). Specializing in tech content, AI-powered development workflows, and social media growth.',
+      skills: ['Canva', 'Content Creation', 'Engagement Strategy', 'VN', 'Capcut', 'Video Editing']
     },
     {
-      title: 'React.js Developer Intern',
-      company: 'Alfido Tech',
-      period: 'May 2025 - Jun 2025',
-      description: 'Built dynamic and responsive web applications using React.js, Vite, and Tailwind CSS. Worked on portfolio sites, interactive dashboards, and API-driven apps.',
-      skills: ['React.js', 'API Integration', 'Tailwind CSS', 'Git']
+      title: 'Frontend Developer',
+      company: 'Freelance',
+      period: 'Nov 2024 - Present (8 mos)',
+      description: 'Developing responsive web applications using modern technologies. Focus on React.js development, Shopify integrations, and AI-powered development tools.',
+      skills: ['JavaScript', 'HTML5', 'CSS3', 'Shopify', 'Prompt Engineering', 'Vercel']
     }
   ];
 
@@ -42,23 +35,37 @@ const About = () => {
     {
       title: 'Software Engineering Intern',
       company: 'Accenture Nordics',
-      period: 'Jun 2025',
-      description: 'Gained experience in debugging code, reading complex codebases, and software engineering best practices.',
-      skills: ['Debugging Code', 'Reading Code']
+      period: 'Jun 2025 (1 mo)',
+      description: 'Gained experience in software engineering best practices, debugging complex codebases, and waterfall methodology. Worked on enterprise-level software solutions.',
+      skills: ['Debugging Code', 'Reading Code', 'Waterfall']
     },
     {
       title: 'GenAI Intern',
       company: 'BCG X',
-      period: 'Jun 2025',
-      description: 'Worked on generative AI projects including chatbot development and AI integration using Microsoft Excel and advanced AI tools.',
-      skills: ['Chatbot Development', 'Microsoft Excel', 'GenAI']
+      period: 'Jun 2025 (1 mo)',
+      description: 'Worked on cutting-edge generative AI projects including chatbot development, data extraction workflows, and AI model implementation using Python and Jupyter notebooks.',
+      skills: ['Chatbot Development', 'Microsoft Excel', 'Jupyter', 'Data Extraction', 'Python']
     },
     {
       title: 'Solutions Architecture Intern',
       company: 'AWS APAC',
-      period: 'Jun 2025',
-      description: 'Learned AWS cloud architecture principles and solutions design for scalable applications.',
-      skills: ['Amazon Web Services (AWS)', 'Cloud Architecture']
+      period: 'Jun 2025 (1 mo)',
+      description: 'Learned AWS cloud architecture principles, solutions design patterns, and best practices for scalable cloud applications and infrastructure management.',
+      skills: ['Amazon Web Services (AWS)', 'Cloud Architecture', 'Solutions Design']
+    },
+    {
+      title: 'UX Design Introduction Intern',
+      company: 'Lloyds Banking Group',
+      period: 'Jun 2025 (1 mo)',
+      description: 'Introduction to user experience design principles, design thinking methodologies, and banking sector UX considerations for financial services applications.',
+      skills: ['UX Design', 'Design Thinking', 'User Research']
+    },
+    {
+      title: 'React.js Developer Intern',
+      company: 'Alfido Tech',
+      period: 'May 2025 (1 mo)',
+      description: 'Built dynamic and responsive web applications using React.js, React Hooks, and modern JavaScript. Developed portfolio sites, interactive dashboards, and API-driven applications.',
+      skills: ['React Hooks', 'JavaScript', 'HTML5', 'CSS3', 'React.js']
     }
   ];
 
