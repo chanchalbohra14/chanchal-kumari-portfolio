@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -21,16 +22,37 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      // Send message to YOU (form data)
+
+      await emailjs.sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_YOU,
+        e.target,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      );
+      // Send confirmation email to USER
+
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_USER,
+        {
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      );
+
       setSubmitStatus("success");
       setFormData({ name: "", email: "", subject: "", message: "" });
-
-      setTimeout(() => {
-        setSubmitStatus("");
-      }, 3000);
-    }, 2000);
+    } catch (error) {
+      console.error("Email send error:", error);
+      setSubmitStatus("error");
+    } finally {
+      setIsSubmitting(false);
+      setTimeout(() => setSubmitStatus(""), 3000);
+    }
   };
 
   const contactInfo = [

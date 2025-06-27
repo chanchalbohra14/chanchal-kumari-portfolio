@@ -73,17 +73,37 @@ const About = () => {
 
   const internships = [
     {
+      title: "React.js Developer Intern",
+      company: "Alfido Tech",
+      period: "May 2025 (1 mo)",
+      description:
+        "Built dynamic and responsive web applications using React.js, React Hooks, and modern JavaScript. Developed portfolio sites, interactive dashboards, and API-driven applications.",
+      skills: ["React Hooks", "JavaScript", "HTML5", "CSS3", "React.js"],
+      link: "https://www.alfidotech.com/Certificate/Chanchal%20Kumari.pdf",
+    },
+    {
+      title: "UX Design Intern",
+      company: "Lloyds Banking Group",
+      period: "Jun 2025",
+      description:
+        "Introduction to user experience design principles, design thinking methodologies, and banking sector UX considerations for financial services applications.",
+      skills: ["UX Design", "Design Thinking", "User Research"],
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Zbnc2o4ok6kD2NEXx/N65hfzBKXRiATv6yd_Zbnc2o4ok6kD2NEXx_QJ3TKpCx6EZocS7mB_1750931394212_completion_certificate.pdf",
+    },
+    {
       title: "Software Engineering Intern",
       company: "Accenture Nordics",
-      period: "Jun 2025 (1 mo)",
+      period: "Jun 2025",
       description:
         "Gained experience in software engineering best practices, debugging complex codebases, and waterfall methodology. Worked on enterprise-level software solutions.",
       skills: ["Debugging Code", "Reading Code", "Waterfall"],
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/xhih9yFWsf6AYfngd/HNpZwZcuYwona2d8Y_xhih9yFWsf6AYfngd_QJ3TKpCx6EZocS7mB_1750925045211_completion_certificate.pdf",
     },
+
     {
       title: "GenAI Intern",
       company: "BCG X",
-      period: "Jun 2025 (1 mo)",
+      period: "Jun 2025",
       description:
         "Worked on cutting-edge generative AI projects including chatbot development, data extraction workflows, and AI model implementation using Python and Jupyter notebooks.",
       skills: [
@@ -93,11 +113,12 @@ const About = () => {
         "Data Extraction",
         "Python",
       ],
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/SKZxezskWgmFjRvj9/gabev3vXhuACr48eb_SKZxezskWgmFjRvj9_QJ3TKpCx6EZocS7mB_1750928013272_completion_certificate.pdf",
     },
     {
       title: "Solutions Architecture Intern",
-      company: "AWS APAC",
-      period: "Jun 2025 (1 mo)",
+      company: "AWS",
+      period: "Jun 2025",
       description:
         "Learned AWS cloud architecture principles, solutions design patterns, and best practices for scalable cloud applications and infrastructure management.",
       skills: [
@@ -105,22 +126,7 @@ const About = () => {
         "Cloud Architecture",
         "Solutions Design",
       ],
-    },
-    {
-      title: "UX Design Introduction Intern",
-      company: "Lloyds Banking Group",
-      period: "Jun 2025 (1 mo)",
-      description:
-        "Introduction to user experience design principles, design thinking methodologies, and banking sector UX considerations for financial services applications.",
-      skills: ["UX Design", "Design Thinking", "User Research"],
-    },
-    {
-      title: "React.js Developer Intern",
-      company: "Alfido Tech",
-      period: "May 2025 (1 mo)",
-      description:
-        "Built dynamic and responsive web applications using React.js, React Hooks, and modern JavaScript. Developed portfolio sites, interactive dashboards, and API-driven applications.",
-      skills: ["React Hooks", "JavaScript", "HTML5", "CSS3", "React.js"],
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_QJ3TKpCx6EZocS7mB_1750923592731_completion_certificate.pdf",
     },
   ];
 
@@ -155,98 +161,150 @@ const About = () => {
     {
       title: "Microsoft Azure AI Engineer Associate",
       issuer: "ICT Academy",
-      date: "Jun 2025",
+      date: "Jan 2025",
       category: "Cloud & AI",
+      image: "images/Certificates/azure.jpg",
     },
     {
       title: "AWS APAC Solutions Architecture Job Simulation",
       issuer: "Forage",
       date: "Jun 2025",
       category: "Cloud & AI",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_QJ3TKpCx6EZocS7mB_1750923592731_completion_certificate.pdf",
     },
     {
       title: "BCG GenAI Job Simulation",
       issuer: "Forage",
       date: "Jun 2025",
       category: "AI & ML",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/SKZxezskWgmFjRvj9/gabev3vXhuACr48eb_SKZxezskWgmFjRvj9_QJ3TKpCx6EZocS7mB_1750928013272_completion_certificate.pdf",
     },
+
     {
       title: "Accenture Nordics Software Engineering Job Simulation",
       issuer: "Forage",
       date: "Jun 2025",
       category: "Software Engineering",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/xhih9yFWsf6AYfngd/HNpZwZcuYwona2d8Y_xhih9yFWsf6AYfngd_QJ3TKpCx6EZocS7mB_1750925045211_completion_certificate.pdf",
+    },
+    {
+      title: "React.js Developer Intern",
+      issuer: "Alfido Tech",
+      date: "June 2025",
+      category: "React.JS",
+      link: "https://www.alfidotech.com/Certificate/Chanchal%20Kumari.pdf",
     },
     {
       title: "ChatGPT Prompt Engineering for Developers",
       issuer: "OpenAI",
       date: "Jun 2025",
       category: "AI & ML",
+      link: "https://learn.deeplearning.ai/accomplishments/36c6978d-d83a-42e5-a8ca-c71d36221f1e",
     },
     {
       title: "Multi AI Agent Systems with crewAI",
       issuer: "CrewAI",
       date: "Jun 2025",
       category: "AI & ML",
+      link: "https://learn.deeplearning.ai/accomplishments/7d5b5156-13d0-419e-be34-094104e0152c",
     },
-    {
-      title: "Build Real World AI Applications with Gemini and Imagen",
-      issuer: "Google Cloud Skills Boost",
-      date: "Jun 2025",
-      category: "AI & ML",
-    },
+
     {
       title: "AI For Beginners",
       issuer: "HP",
       date: "Jun 2025",
       category: "AI & ML",
+      link: "https://www.life-global.org/certificate/da7edf28-cde2-42ea-9b19-016feebc4da4",
+    },
+    {
+      title: "Chatgpt For Everyone",
+      issuer: "United Latino Students Association",
+      date: "Jun 2025",
+      category: "AI & ML",
+      link: "https://learnprompting.thinkific.com/certificates/6izeeghvak",
     },
     {
       title: "Agile Project Management",
       issuer: "HP",
       date: "Jun 2025",
       category: "Project Management",
+      link: "https://www.life-global.org/certificate/b5f9a3e3-6e7f-4835-814b-1a77f254c3df",
     },
     {
       title: "Data Science & Analytics",
       issuer: "HP",
       date: "Jun 2025",
       category: "Data Science",
+      link: "https://www.life-global.org/certificate/4242222d-185e-4d87-a3c8-67764aa1f6d1",
     },
     {
       title: "Introduction to Cybersecurity Awareness",
       issuer: "HP",
       date: "Jun 2025",
       category: "Security",
+      link: "https://www.life-global.org/certificate/f987d257-9155-4751-897e-968afa5942aa",
     },
     {
       title: "Prompt Engineering",
       issuer: "AI IXX",
       date: "Jun 2025",
       category: "AI & ML",
+      link: "https://aiixx.ai/image/show-pdf/60/5070#toolbar=0&navpanes=0&scrollbar=0",
     },
     {
       title: "Lloyds Banking Group UX Design Introduction",
       issuer: "Forage",
       date: "Jun 2025",
       category: "Design",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Zbnc2o4ok6kD2NEXx/N65hfzBKXRiATv6yd_Zbnc2o4ok6kD2NEXx_QJ3TKpCx6EZocS7mB_1750931394212_completion_certificate.pdf",
+    },
+    {
+      title: "Introduction To MERN Stack",
+      issuer: "Simplilearn",
+      date: "Jan 2025",
+      category: "Full Stack Development",
+      link: "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIzMzM3IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvNzc0MTgwN183MDM3NTYwMTczNjA5Nzg0ODU4Mi5wbmciLCJ1c2VybmFtZSI6IkNoYW5jaGFsIEt1bWFyaSAifQ&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2F7741807_70375601736097848582.png&_branch_match_id=1425060035561738500&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1veoKjYvKAv2DwtJsq8rSk1LLSrKzEuPTyrKLy9OLbL1AapJTfHMAwArpTxxPwAAAA%3D%3D",
+    },
+    {
+      title: "Digital Marketing Fundamentals",
+      issuer: "IIDE",
+      date: "Dec 2024",
+      category: "Marketing",
+      image: "images/Certificates/IIDE.jpg",
+    },
+    {
+      title: "Python Fundamentals For Beginners",
+      issuer: "Great Learning",
+      date: "Sep 2023",
+      category: "Programming",
+      image: "images/Certificates/great-learning.jpg",
+    },
+    {
+      title: "Deplomat Coding Event",
+      issuer: "De Paul College",
+      date: "Jun 2023",
+      category: "Coding Event",
+      image: "images/Certificates/deplomat.jpg",
+    },
+    {
+      title: "Enthrone Event CodeVita",
+      issuer: "Shree Medha College",
+      date: "Jan 2022",
+      category: "Coding Event",
+      image: "images/Certificates/enthrone.jpg",
     },
   ];
 
   const additionalCerts = [
-    "Gen AI Agents: Transform Your Organization (Google Cloud)",
-    "Gen AI Apps: Transform Your Work (Google Cloud)",
-    "Gen AI: Beyond the Chatbot (Google Cloud)",
-    "Gen AI: Navigate the Landscape (Google Cloud)",
-    "Gen AI: Unlock Foundational Concepts (Google Cloud)",
+    "Gen AI Agents: Transform Your Organization",
+    "Gen AI Apps: Transform Your Work",
+    "Gen AI: Beyond the Chatbot",
+    "Gen AI: Navigate the Landscape",
+    "Gen AI: Unlock Foundational Concepts",
     "Google Cloud Fundamentals: Core Infrastructure",
-    "Introduction to Gen AI (Google Cloud)",
-    "Prompt Design in Vertex AI (Google Cloud)",
-    "Introduction To MERN Stack (Simplilearn)",
-    "Digital Marketing Fundamentals (IIDE)",
-    "Python Fundamentals For Beginners (Great Learning)",
-    "Deplomat Coding Event (De Paul College)",
-    "Enthrone Event CodeVita (Shree Medha College)",
-    "+ 15 more specialized certifications",
+    "Introduction to Gen AI",
+    "Prompt Design in Vertex AI",
+    "Build Real World AI Applications with Gemini and Imagen",
   ];
 
   return (
@@ -382,7 +440,6 @@ const About = () => {
                 Key Certifications
               </h3>
 
-              {/* Major Certifications */}
               <div className="space-y-4 mb-6">
                 {certifications.map((cert, index) => (
                   <div
@@ -390,9 +447,29 @@ const About = () => {
                     className="border-l-4 border-green-500 pl-4 bg-white/5 rounded-lg p-3"
                   >
                     <div className="flex justify-between items-start mb-2">
-                      <h4 className="text-sm font-semibold text-white">
-                        {cert.title}
-                      </h4>
+                      {cert.link ? (
+                        <a
+                          href={cert.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm font-semibold text-white hover:underline"
+                        >
+                          {cert.title}
+                        </a>
+                      ) : cert.image ? (
+                        <a
+                          href={cert.image}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm font-semibold text-white hover:underline"
+                        >
+                          {cert.title}
+                        </a>
+                      ) : (
+                        <h4 className="text-sm font-semibold text-white">
+                          {cert.title}
+                        </h4>
+                      )}
                       <span className="text-xs text-green-400 font-medium">
                         {cert.date}
                       </span>
@@ -412,6 +489,7 @@ const About = () => {
                 <h4 className="text-lg font-semibold text-indigo-300 mb-4">
                   Additional Certifications
                 </h4>
+
                 <div className="grid grid-cols-1 gap-2">
                   {additionalCerts.map((cert, index) => (
                     <div
@@ -423,6 +501,16 @@ const About = () => {
                     </div>
                   ))}
                 </div>
+
+                {/* 🔗 Link to Cloud Skills Boost profile */}
+                <a
+                  href="https://www.cloudskillsboost.google/public_profiles/e5f5583e-32ba-49be-b9f1-de3606cdf7fd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-4 text-sm text-indigo-400 hover:underline"
+                >
+                  View My Cloud Skills Boost Profile →
+                </a>
               </div>
 
               {/* Certification Stats */}
@@ -498,9 +586,20 @@ const About = () => {
                   >
                     <div className="flex justify-between items-start mb-2">
                       <div>
-                        <h4 className="text-lg font-semibold text-white">
-                          {internship.title}
-                        </h4>
+                        {internship.link ? (
+                          <a
+                            href={internship.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-lg font-semibold text-white hover:underline"
+                          >
+                            {internship.title}
+                          </a>
+                        ) : (
+                          <h4 className="text-lg font-semibold text-white">
+                            {internship.title}
+                          </h4>
+                        )}
                         <p className="text-purple-400 font-medium">
                           {internship.company}
                         </p>
@@ -546,6 +645,9 @@ const About = () => {
                     "CSS3",
                     "Git",
                     "GitHub",
+                    "Netlify",
+                    "Vercel",
+                    "Render",
                   ].map((skill) => (
                     <span key={skill} className="skill-tag">
                       {skill}
@@ -568,7 +670,6 @@ const About = () => {
                     "n8n",
                     "Stitch AI",
                     "OpenAI",
-                    "SerpAPI",
                   ].map((skill) => (
                     <span key={skill} className="skill-tag">
                       {skill}
@@ -583,25 +684,19 @@ const About = () => {
                   Cloud & AI Platforms
                 </h4>
                 <div className="flex flex-wrap gap-3">
-                  {[
-                    "AWS",
-                    "Google Cloud",
-                    "Microsoft Azure",
-                    "OpenAI",
-                    "CrewAI",
-                    "Gemini",
-                    "Vertex AI",
-                  ].map((skill) => (
-                    <span key={skill} className="skill-tag">
-                      {skill}
-                    </span>
-                  ))}
+                  {["AWS", "Microsoft Azure", "OpenAI", "Gemini"].map(
+                    (skill) => (
+                      <span key={skill} className="skill-tag">
+                        {skill}
+                      </span>
+                    )
+                  )}
                 </div>
               </div>
 
               {/* Content & Design */}
-              <div>
-                <h4 className="text-lg font-semibold text-indigo-300 mb-4">
+              <div className="mb-8">
+                <h4 className=" text-lg font-semibold text-indigo-300 mb-4">
                   Content & Design
                 </h4>
                 <div className="flex flex-wrap gap-3">
@@ -627,14 +722,7 @@ const About = () => {
                   Additional Skills
                 </h4>
                 <div className="flex flex-wrap gap-3">
-                  {[
-                    "Python",
-                    "Data Science",
-                    "Digital Marketing",
-                    "Cybersecurity",
-                    "Agile PM",
-                    "UX Design",
-                  ].map((skill) => (
+                  {["Python", "Digital Marketing", "UX Design"].map((skill) => (
                     <span key={skill} className="skill-tag">
                       {skill}
                     </span>

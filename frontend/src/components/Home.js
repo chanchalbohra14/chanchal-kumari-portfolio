@@ -19,8 +19,9 @@ const Home = () => {
             <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl">
               Recent Computer Applications graduate passionate about React.js
               and front-end development. Experienced with AI tools like
-              Lovable.dev, Cursor, v0. Exploring AI Agent Development. Open to
-              React Developer & Full Stack roles.
+              Lovable.dev, Cursor, v0, Replit, Stitch, Firebase Studio.
+              Exploring AI Agent Development. Open to React Developer & Full
+              Stack roles.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

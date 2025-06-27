@@ -257,7 +257,7 @@ const Projects = () => {
     },
     {
       id: 14,
-      title: "Alfido Tech – Frontend Internship Tasks",
+      title: "Alfido Tech – React.JS Internship Tasks",
       description:
         "Contributed to the development of a responsive frontend dashboard using React.js. Built reusable UI components, integrated APIs, and implemented React Router for smooth navigation during a short-term internship at Alfido Tech.",
       image: "/images/alfido-tech.png",
